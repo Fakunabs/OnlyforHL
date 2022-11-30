@@ -1416,21 +1416,21 @@
   }
 
   /*
-scope.tokenizer = tokenizer;
-scope.parse = parse;
-scope.slice = slice;
-scope.curry = curry;
-scope.member = member;
-scope.array_to_hash = array_to_hash;
-scope.PRECEDENCE = PRECEDENCE;
-scope.KEYWORDS_ATOM = KEYWORDS_ATOM;
-scope.RESERVED_WORDS = RESERVED_WORDS;
-scope.KEYWORDS = KEYWORDS;
-scope.ATOMIC_START_TOKEN = ATOMIC_START_TOKEN;
-scope.OPERATORS = OPERATORS;
-scope.is_alphanumeric_char = is_alphanumeric_char;
-scope.set_logger = function (logger) {
-    warn = logger;
-};
-*/
+      scope.tokenizer = tokenizer;
+      scope.parse = parse;
+      scope.slice = slice;
+      scope.curry = curry;
+      scope.member = member;
+      scope.array_to_hash = array_to_hash;
+      scope.PRECEDENCE = PRECEDENCE;
+      scope.KEYWORDS_ATOM = KEYWORDS_ATOM;
+      scope.RESERVED_WORDS = RESERVED_WORDS;
+      scope.KEYWORDS = KEYWORDS;
+      scope.ATOMIC_START_TOKEN = ATOMIC_START_TOKEN;
+      scope.OPERATORS = OPERATORS;
+      scope.is_alphanumeric_char = is_alphanumeric_char;
+      scope.set_logger = function (logger) {
+          warn = logger;
+      };
+      */
 })();

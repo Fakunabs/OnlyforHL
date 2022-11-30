@@ -342,17 +342,17 @@
           delayStmt.stmts.push({ type: "raw", stmt: keysAst });
 
           /*
-                    // var members = [];
-                    delayStmt.stmts.push({
-                        type: "raw",
-                        stmt: uglifyJS.parse("var " + membersVar + " = [];")[1][0]
-                    });
-                    
-                    // for (var mem in obj) members.push(mem);
-                    var keysAst = uglifyJS.parse("for (var " + memVar +" in obj) " + membersVar + ".push(" + memVar + ");")[1][0];
-                    keysAst[3] = ast[3]; // replace the "obj" with real AST.
-                    delayStmt.stmts.push({ type : "raw", stmt: keysAst});
-                    */
+                  // var members = [];
+                  delayStmt.stmts.push({
+                      type: "raw",
+                      stmt: uglifyJS.parse("var " + membersVar + " = [];")[1][0]
+                  });
+                  
+                  // for (var mem in obj) members.push(mem);
+                  var keysAst = uglifyJS.parse("for (var " + memVar +" in obj) " + membersVar + ".push(" + memVar + ");")[1][0];
+                  keysAst[3] = ast[3]; // replace the "obj" with real AST.
+                  delayStmt.stmts.push({ type : "raw", stmt: keysAst});
+                  */
 
           // var index = 0;
           delayStmt.stmts.push({
